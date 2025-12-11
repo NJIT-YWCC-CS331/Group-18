@@ -6,7 +6,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION[
     exit;
 }
 
-require_once "../config.php";
+require_once "config.php";
 
 $sql = "SELECT f.flight_number, f.airline_company, f.flight_duration,
         dep.airport_code as dep_airport, dep_city.city as dep_city,
@@ -71,3 +71,4 @@ while($row = mysqli_fetch_assoc($result)){
     
 </body>
 </html>
+
