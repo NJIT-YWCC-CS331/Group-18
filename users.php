@@ -6,7 +6,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION[
     exit;
 }
 
-require_once "../config.php";
+require_once "config.php";
 
 $sql = "SELECT user_id, username, email, first_name, last_name, phone, role, created_at FROM users ORDER BY created_at DESC";
 $result = mysqli_query($conn, $sql);
@@ -56,3 +56,4 @@ while($row = mysqli_fetch_assoc($result)){
     
 </body>
 </html>
+
