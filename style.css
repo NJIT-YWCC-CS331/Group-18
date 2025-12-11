@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+
+body {
+    font-family: "TikTok Sans", sans-serif;
+    background-color: #c9a892;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #783b41;
+}
+
+h2 {
+    color: #696969;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th {
+    background-color: #667eea;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5568d3;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    padding: 10px;
+    background-color: #ffeeee;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.success {
+    color: green;
+    padding: 10px;
+    background-color: #eeffee;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+small {
+    color: #666;
+    font-size: 12px;
+}
+
