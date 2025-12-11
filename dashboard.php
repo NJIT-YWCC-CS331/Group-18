@@ -6,7 +6,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION[
     exit;
 }
 
-require_once "../config.php";
+require_once "config.php";
 
 $total_users = 0;
 $total_bookings = 0;
@@ -73,3 +73,4 @@ $total_revenue = mysqli_fetch_assoc($result)['total'];
     
 </body>
 </html>
+
